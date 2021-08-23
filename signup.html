@@ -1,0 +1,152 @@
+<html>
+<head>
+    <title>signup</title>
+    <style>
+        #signup-win {
+            width: 500;
+            height: 500;
+            border: 2px gray solid;
+            background-color: #ff8000;
+            margin: auto;
+            box-shadow: 0px 0px 15px 1px black;
+            margin-top: 20px;
+        }
+
+        #signup-win:hover {
+            box-shadow: 0px 0px 15px 5px purple;
+        }
+
+        #title-div {
+            width: inherit;
+            height: 50px;
+            background-color: black
+        }
+
+        .title {
+            color:#ff8000;
+            font-size: 25px;
+            margin-left: 160px;
+            margin-right: 150px;
+            
+        }
+
+        body {
+            background color: black;
+        }
+
+        #cross {
+            width: 17px;
+            height: 17px;
+            border: 1px black solid;
+            margin-right: 25px;
+            margin-top: 5px;
+            float: right;
+            background-image: url(pics/cross.png);
+            background-position: center;
+            background-size: 100%;
+            background-repeat: no-repeat;
+            cursor: pointer;}
+
+        #pic {
+            width: 100px;
+            height: 100px;
+            ;
+            background-image: url(pics/p.png);
+            background-size: contain;
+            border-radius: 40%;
+            border: 1px black solid;
+            margin: auto;
+            margin-top: 60px;
+            background-size: 90%;
+            background-repeat: no-repeat;
+            background-position: center;
+
+
+        }
+
+        tr {
+            line-height: 35px;
+
+        }
+
+        input[type="text"],
+        input[type="password"] {
+            width: 100%;
+            color: black;
+            line-height: 30px;
+            outline: none;
+            font-size: 10px;
+        }
+
+        input[type="text"]:focus {
+            border: 1px black solid;
+        }
+
+        input[type="password"]:focus {
+            border: 1px black solid;
+        }
+
+        label {
+            font-weight: bold;
+            font-size: 18px;
+            color: black;
+        }
+
+        .btn {
+            color: #ff8000;
+            font-size: 15spx;
+            width="80%"
+            text-align: center;
+            text-decoration: underline;
+            border: 1px solid;
+            padding: 10px;
+            margin-top: 10px;
+            background-color: black;
+        }
+
+        .icon {
+            background-image: url();
+            background-repeat: no-repeat;
+            background-position: center;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="signup-win">
+        <div id="title-div"><span class="title">SIGNUP-HERE</span></div>
+        <div id="cross"></div>
+        <div id="pic"></div>
+        <table width="90%" border="0" style="margin-left: 15px">
+            <tr>
+                <td><label>USER ID</label></td>
+            </tr>
+            <tr>
+                <td><input type="text" class="icon" placeholder="enter ur username">
+                </td>
+            </tr>
+            <tr>
+                <td><label>PASSWORD</label></td>
+            </tr>
+            <tr>
+                <td><input type="password" class="icon">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label>MOBLE</label>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <input type="text" class="icon">
+                </td>
+            </tr>
+            <tr>
+                <td align="center">
+                    <input type="button" class="btn" value="Signup">
+                </td>
+            </tr>
+        </table>
+    </div>
+</body></html>
